@@ -1,6 +1,5 @@
 # Predicting average movie ranking using Machine Learning
 
-Predicting average movie ranking using Machine Learning (#predicting-average-movie-ranking-using-machine-learning)
 - [Business Understanding](#business-understanding)
 - [The Dataset](#dataset)
   - [Issues with the data](#issues-with-the-data)
@@ -19,6 +18,7 @@ Predicting average movie ranking using Machine Learning (#predicting-average-mov
 - [Evaluation of results](#evaluation-of-results)
 - [Final model evaluation](#final-model-evaluation)
 - [Concluding remarks](#concluding-remarks)
+- [Notes](#notes)
 - [Authors](#authors)
 
 ## Business Understanding
@@ -527,6 +527,9 @@ The most important variables for the random forest model are popularity, vote co
 ## Concluding remarks
 
 This model seems to preform well, and we can use it for further research on the topic and further evaluations. Considerations which we can take into account moving along, would be finding a computer with higher computational power, so that we can preform the model with more variables (for example more genres than just the three we could implement) as well as potentially employing a higher training dataset to see whether the performance metrics could be increased. Another implementation we could consider is only considering movies that have a certain number of reviews, so that we can not have outliers mentioned above, where movies with a low number of ratings will end up preforming well.
+
+## Notes
+The dataset included in this repository does not contain all the ~45K rows, but only 30K rows due to the size of the file. Hence, the models might look different with the dataset included in this repository. The original dataset can be obtained from [kaggle](https://www.kaggle.com/rounakbanik/the-movies-dataset).
 
 ## Authors
 Ema Vargova, Luka Corsovic, Marcell Molnár
