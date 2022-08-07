@@ -529,7 +529,7 @@ The most important variables for the random forest model are popularity, vote co
 This model seems to preform well, and we can use it for further research on the topic and further evaluations. Considerations which we can take into account moving along, would be finding a computer with higher computational power, so that we can preform the model with more variables (for example more genres than just the three we could implement) as well as potentially employing a higher training dataset to see whether the performance metrics could be increased. Another implementation we could consider is only considering movies that have a certain number of reviews, so that we can not have outliers mentioned above, where movies with a low number of ratings will end up preforming well.
 
 ## Notes
-The dataset included in this repository does not contain all the ~45K rows, but only 30K rows due to the size of the file. Hence, the models might look different with the dataset included in this repository. The original dataset can be obtained from [kaggle](https://www.kaggle.com/rounakbanik/the-movies-dataset).
+The dataset included in this repository does not contain all the ~45K rows, but only 30K rows due to the size of the file. Hence, the models might look different with the dataset included in this repository. The original dataset can be obtained from [kaggle](https://www.kaggle.com/rounakbanik/the-movies-dataset) (accessed on 08.04.2021).
 
 ## Authors
 Ema Vargova, Luka Corsovic, Marcell Molnár
